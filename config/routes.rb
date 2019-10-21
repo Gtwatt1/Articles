@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  resources :books
+  resources :tests
   get 'message/index'
   get 'welcome/index'
   resources :articles do 
